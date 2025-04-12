@@ -1,0 +1,37 @@
+# Kernel module build artifacts
+*.ko
+*.o
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+modules.builtin
+
+# Kbuild output
+*.cmd
+
+# Backup / temp files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Tags and IDE/Editor files
+tags
+*.ctags
+*.vscode/
+*.idea/
+*.cproject
+*.project
+
+# Custom build directories (if any)
+build/
+out/
+
